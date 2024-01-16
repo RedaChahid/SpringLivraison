@@ -1,0 +1,7 @@
+type ClientDto{
+     firstName :String,
+     lastName :String,
+     telephone :String,
+      adress : String,
+     email : String,
+}

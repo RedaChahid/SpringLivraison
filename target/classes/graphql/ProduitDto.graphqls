@@ -1,0 +1,5 @@
+type ProduitDto{
+    name : String,
+    description :String,
+    prix : Float
+}

@@ -1,0 +1,5 @@
+input CommandeDtoInput{
+    id_client : Float,
+    name : String,
+    montant : Float
+}

@@ -1,0 +1,4 @@
+type CommandeDto{
+    name : String,
+    montant : Float
+}

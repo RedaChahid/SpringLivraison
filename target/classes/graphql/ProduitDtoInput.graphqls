@@ -1,0 +1,5 @@
+input ProduitDtoInput{
+    name : String,
+    description :String,
+    prix : Float
+}

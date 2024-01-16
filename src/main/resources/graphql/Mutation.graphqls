@@ -1,0 +1,21 @@
+type Mutation{
+    saveClient(clientDtoInput : ClientDtoInput) : ClientDto
+    deleteClient(id:Float) : Boolean
+    updateClient(id :Float,clientDtoInput :ClientDtoInput) :ClientDto
+
+
+    saveLivreur(livreurDtoInput : LivreurDtoInput) : LivreurDto
+    deleteLivreur(id:Float) : Boolean
+    updateLivreur(id :Float,livreurDtoInput :LivreurDtoInput) :LivreurDto
+
+    saveMagasin(magasinDtoInput : MagasinDtoInput) : MagasinDto
+    deleteMagasin(id:Float) : Boolean
+    updateMagasin(id :Float,magasinDtoInput :MagasinDtoInput) :MagasinDto
+
+    saveProduit(produitDtoInput : ProduitDtoInput) : ProduitDto
+    deleteProduit(id:Float) : Boolean
+    updateProduit(id :Float,produitDtoInput :ProduitDtoInput) :ProduitDto
+
+    saveCommande(commandeDtoInput : CommandeDtoInput) : CommandeDto
+    deleteCommande(id:Float) : Boolean
+}

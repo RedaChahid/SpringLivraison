@@ -1,0 +1,7 @@
+type LivreurDto{
+    firstName :String,
+    lastName :String,
+    telephone :String,
+    Salaire : Int,
+    Disponible : Boolean
+}

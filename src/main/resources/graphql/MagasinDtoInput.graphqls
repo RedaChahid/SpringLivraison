@@ -1,0 +1,5 @@
+input MagasinDtoInput{
+    firstName :String,
+    adress : String,
+    surface : Float,
+}

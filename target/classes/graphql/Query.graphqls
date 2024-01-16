@@ -1,0 +1,21 @@
+type  Query{
+    getClientById(id: Float) : ClientDto
+    getClientByName(firstName : String) : [ClientDto]
+    getAllClients :[ClientDto]
+
+    getLivreurById(id: Float) : LivreurDto
+    getLivreurByName(firstName : String) : [LivreurDto]
+    getAllLivreurs :[LivreurDto]
+
+    getMagasinById(id: Float) : MagasinDto
+    getMagasinByName(firstName : String) : [MagasinDto]
+    getAllMagasins :[MagasinDto]
+
+    getProduitById(id: Float) : ProduitDto
+    getProduitByName(name : String) : [ProduitDto]
+    getAllProduits :[ProduitDto]
+
+    getCommandeById(id: Float) : CommandeDto
+    getCommandeByName(name : String) : [CommandeDto]
+    getAllCommandes :[CommandeDto]
+}
